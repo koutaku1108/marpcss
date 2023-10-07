@@ -93,3 +93,8 @@ section::after{
     font-size: 60%;
     content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
+
+ref {
+    font-size:12px;
+    line-height:1em;
+}
