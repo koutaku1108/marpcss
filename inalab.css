@@ -91,5 +91,5 @@ table th{
 
 section::after{
     font-size: 60%;
-    content: attr(data-marpit-pagination '/' attr(data-marpit-pagination-total));
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
