@@ -2,47 +2,6 @@
 
 @import 'gaia';
 
-/* section {
-    font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-size: 32px;
-    padding: 40px;
-}
-
-section.title h1 {
-    color: rgb(5, 22, 90);
-    font-family: "Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 60px;
-    text-align: center;
-}
-
-section.title {
-    color: rgb(5, 22, 90);
-    font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-size: 36px;
-    text-align: center;
-    padding: 40px;
-}
-
-section.slides {
-    color : rgb(5, 22, 90);
-    font-family: "Arial"
-}
-
-section.slides h1 {
-    /* background: linear-gradient( to left,  rgba(69,179,224,1) 25%, rgb(97, 109, 218) 75% ); */
-    /* color: transparent; */
-    /* font-family: "Arial", "Hiragino Kaku Gothic ProN";
-    font-size: 42px;
-    position: absolute;
-    left: 50px; top: 50px;
-}
-
-section.slides h2 {
-    font-size: 32px;
-    color: #4ac;
-    position: absolute;
-    left: 50px; top: 90px;
-} */
 /*  */
 section{
     font-family: "Note Sans JP",sans-serif;
@@ -61,25 +20,41 @@ section.slides h2{
 
 section.slides h3{
     line-height: 1.5;
-    margin: 0em 0em;/*上下をまとめて指定*/
-    padding: 0em 0em;
+    margin-top: 0.2em;/*上下をまとめて指定*/
+    margin-bottom: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em
 }
 
 section.slides h4{
     line-height: 1.5;
+    text-decoration: underline;
 }
 
 section.slides p{
-    line-height: 1.5
+    line-height: 1.5;
+    margin-top: 0.2em;
+    margin-bottom: 0em;
+    padding: 0em;
 }
 
 section.slides li{
-    padding-top:0.5em;
-    padding-bottom:0.5em;
-    margin: 0;
+    padding:0em;
+    margin-top: 0em;
+    margin-bottom:0em;
+}
+
+section.slides ul,ol{/*これがリストの全体をいじる部分*/
+    padding-top:0.2em;
+    padding-bottom:0em;
+    margin-top: 0em;
+    margin-bottom:0em;
 }
 
 section.slides code, code *{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    /* padding: 0em; */
     color:white
 }
 
@@ -88,7 +63,8 @@ table {
     display:table;
     font-size:24px;
     margin:auto;
-    margin-top:1em/*上に空白つける*/
+    margin-top:0.5em;/*上に空白つける*/
+    margin-bottom:0.5em;
 }
 
 table th{
@@ -101,6 +77,8 @@ section::after{
 }
 
 ref {
+    position: absolute;
+    bottom:4em;
     font-size:16px;
     line-height:1.3em;
     display:block;
