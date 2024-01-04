@@ -61,8 +61,8 @@ section.slides h2{
 
 section.slides h3{
     line-height: 1.5;
-    margin: 0,0;
-    padding: 0,0;
+    margin: 0em 0em;/*上下をまとめて指定*/
+    padding: 0em 0em;
 }
 
 section.slides h4{
