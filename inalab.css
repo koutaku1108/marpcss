@@ -74,8 +74,8 @@ section.slides p{
 }
 
 section.slides li{
-    padding-top:1;
-    padding-bottom:1;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
     margin: 0;
 }
 
