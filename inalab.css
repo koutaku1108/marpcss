@@ -4,7 +4,7 @@
 
 /*  */
 section{
-    font-family: 'BIZ UDゴシック','BIZ UDPGothic',sans-serif;
+    font-family: 'BIZ UDPGothic','BIZ UDPゴシック',sans-serif;
     background-color: white;
 }
 
@@ -82,4 +82,5 @@ ref {
     font-size:16px;
     line-height:1.3em;
     display:block;
+    letter-spacing: -0.03em;
 }
